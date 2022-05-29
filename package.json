@@ -1,0 +1,30 @@
+{
+  "name": "use-global-service",
+  "version": "1.0.5",
+  "main": "dist/use-global-service.cjs.js",
+  "module": "dist/use-global-service.esm.js",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "preconstruct build",
+    "release": "yarn build && npm publish"
+  },
+  "peerDependencies": {
+    "react": ">= 16.8.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.0",
+    "@babel/preset-env": "^7.18.0",
+    "@babel/preset-react": "^7.17.12",
+    "@babel/preset-typescript": "^7.17.12",
+    "@preconstruct/cli": "^2.1.5",
+    "@types/react": "^18.0.9",
+    "@types/react-dom": "^18.0.5",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "typescript": "^4.6.4"
+  },
+  "dependencies": {}
+}
